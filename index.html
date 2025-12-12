@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyberKayra | Cyber Security & Dev</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        nav {
+            padding: 20px 40px;
+            border-bottom: 1px solid #30363d;
+            background-color: #161b22;
+        }
+        .logo { font-size: 1.5rem; font-weight: bold; color: #58a6ff; text-decoration: none; }
+        
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #30363d;
+            margin-bottom: 20px;
+        }
+        
+        h1 { font-size: 3rem; margin-bottom: 10px; color: #fff; }
+        p { color: #8b949e; font-size: 1.2rem; margin-bottom: 40px; }
+        
+        .project-card {
+            background-color: #161b22;
+            border: 1px solid #2ecc71; /* Yeşil Çerçeve */
+            border-radius: 10px;
+            padding: 30px;
+            text-align: left;
+            margin-top: 30px;
+            transition: 0.3s;
+        }
+        .project-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(46, 204, 113, 0.1); }
+        
+        .tag { color: #2ecc71; font-weight: bold; font-size: 0.8rem; letter-spacing: 1px; }
+        .card-title { color: #fff; font-size: 1.5rem; margin: 10px 0; }
+        
+        .btn {
+            display: inline-block;
+            background-color: #2ecc71;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .btn:hover { background-color: #27ae60; }
+        
+        footer { margin-top: auto; padding: 20px; text-align: center; border-top: 1px solid #30363d; color: #8b949e; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#" class="logo">SyberKayra</a>
+    </nav>
+
+    <div class="container">
+        <img src="https://avatars.githubusercontent.com/SyberKayra" alt="Profil" class="avatar">
+        
+        <h1>Merhaba, Ben Kayra 👋</h1>
+        <p>Just a man.</p>
+
+        <div class="project-card">
+            <span class="tag">YENİ PROJE</span>
+            <h3 class="card-title">ShadowBit: Şifreli Veri Gizleme Aracı</h3>
+            <p style="color: #c9d1d9;">Fotoğrafların içine askeri düzeyde (AES-256) şifreli mesajlar gizleyin. Modern arayüz ve yüksek güvenlik.</p>
+            <a href="shadowbit.html" class="btn">Projeyi İncele ve İndir →</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 SyberKayra
+    </footer>
+
+</body>
+</html>
